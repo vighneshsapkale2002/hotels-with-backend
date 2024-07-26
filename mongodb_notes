@@ -1,0 +1,45 @@
+1. how to show database in mongodb to use this command.
+
+Ans: show databases;
+
+2. switch to one database to another database to use this command.
+
+Ans: use sigma
+
+3. how many tables in database to use this command.
+
+Ans: show collections
+
+4. how to create database in mongo db to use this command.
+
+Ans: use mydb;
+
+5. how create table in mongo db to use this command.
+
+Ans: db.createCollection("sigma");
+
+6. how to insert data in table to use this command.
+
+Ans: db.user.insertOne({id:1, username: 'Alice', age: 23});
+
+7. how to find this database in table show this whole of records store in table show this display to use this command.
+
+Ans: db.user.find()
+
+8. how to find this specefic data and some condition verified and use this gretter than symbol write this in mongo db $gt and less than $lt this is both condition use in mongo db.
+
+Ans: db.user.find({age: {$gt:40}});
+Ans: db.user.find({id:{$gt:5}});
+
+9. how to update data in mongo db to use this command.
+
+Ans: db.user.updateOne({id:7},{$set:{username:'Akshay'}})
+
+Ans: db.user.updateOne({username:'M S Dhoni'},{$set:{id:5}});
+
+10. how delete data in mongo db to use this command.
+
+Ans: db.user.deleteOne({id:1})
+
+Note: 1)mongo db compass, 2) mongo db robo 3t,
+Note: This is following both are tools most of uses. this is present the database is GUI.

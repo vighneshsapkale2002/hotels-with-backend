@@ -1,0 +1,2 @@
+# Ignore node_modules folder is not save in git.
+node_modules/
